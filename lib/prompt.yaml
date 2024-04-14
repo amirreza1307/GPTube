@@ -1,0 +1,31 @@
+intro_prompt: |
+  write an intro text for a youtube video with title "top ten of {title}" about 40 word And also in this video.
+  ask the viewers to like the video and subscribe to the channel.
+  not use emoji.
+  answer {language}.
+text_prompt: |
+  you are a youtube content creator.
+  you want make a top 10 video with title of "top ten of {title}",
+  Write a text to explain {top} {genre},that must be about {time} second.
+  important: just send the text and do not give any additional explanation.
+  answer {language}.
+outro_text: |
+  Thanks for your watching. Please like this video and subscribe our channel. Goodbye.
+names_prompt: |
+  i want make a video about top ten of {title}, send ten name of top {title}.
+  important: just send in this format: 
+  ["nameone","nametwo","namethree","namefour","namefive","namesix","nameseven","nameeight","namenine","nameten"]
+short_prompt: |
+ wirte {time} seccend script for a Youtube short video about {title}.
+
+ example:
+
+ [Close-up of a steaming plate of spaghetti]
+ text: "Did you know that your favorite Italian pasta, spaghetti, has a surprising origin?"
+ [Animation of a globe spinning, transitioning from Italy to China]
+ text: "Contrary to popular belief, spaghetti is not Italian, it is Chinese!"
+ [Side-by-side comparison of Chinese noodles and spaghetti]
+ text: "Ancient Chinese noodles, dating back to 2000 BC, were the real pioneers."
+
+
+ Important:do not tell music script like this:"[Upbeat background music playing]"

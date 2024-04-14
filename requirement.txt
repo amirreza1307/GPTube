@@ -1,0 +1,17 @@
+edge-tts
+moviepy
+numpy
+pillow
+requests
+asyncio
+argparse
+tkinter
+deep-translator
+hashlib
+pyyaml
+re
+urllib
+shutil
+opencv-python
+json
+concurrent.futures

@@ -1,0 +1,6 @@
+general_topic = video game
+time = 5
+intro_video = no
+pexels_api = pexels_api
+language = english
+multi_speaker = no
