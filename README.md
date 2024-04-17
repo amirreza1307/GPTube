@@ -41,7 +41,7 @@ Before you begin, ensure that you have the following prerequisites installed on 
 ## Installation Steps
 ### Step 1: Clone Repository
    ```
-   git clone https://github.com/amirreza1307/YouTube-video-maker.git
+   git clone https://github.com/amirreza1307/GPTube.git
    ```
 ### Step 2: install Requirements
 
