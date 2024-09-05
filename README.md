@@ -29,7 +29,7 @@ If you prefer not to install the prerequisites on your local system, you can use
 
 3. Now set "Short Video" or "Long Video" cell settings and run it
 
-Important : For make short video or intro with video in long video,you need set pexels API (get pexels API from [pexels.com](pexels.com) for free)
+Important : For make short video or intro with video in long video,you need set pexels API (get pexels API from [pexels.com](https://pexels.com) for free)
 
 # 🎥Run on local system
 ## Prerequisites
