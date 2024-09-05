@@ -23,7 +23,7 @@ https://github.com/amirreza1307/YouTube-video-maker/assets/135555619/3b48b592-b1
 
 If you prefer not to install the prerequisites on your local system, you can use the Google Colab notebook. This option is free and requires no installation setup.
 
-1. Click on the link to the Google Colab notebook: [https://colab.research.google.com/drive/1Z0Scppdihf2csuUJF20UiuRrHCoCNqIr?usp=sharing](https://colab.research.google.com/drive/1Z0Scppdihf2csuUJF20UiuRrHCoCNqIr?usp=sharing)
+1. Click on the link to the Google Colab notebook: [https://colab.research.google.com/drive/1VsjTi5ZYByyLoLE3hTuqltPSf1GiTTYy?usp=sharing](https://colab.research.google.com/drive/1VsjTi5ZYByyLoLE3hTuqltPSf1GiTTYy?usp=sharing)
    
 2. First, run "Run Frist" cell to install prerequisites
 
@@ -41,7 +41,7 @@ Before you begin, ensure that you have the following prerequisites installed on 
 ## Installation Steps
 ### Step 1: Clone Repository
    ```
-   git clone https://github.com/amirreza1307/GPTube.git
+   git clone https://github.com/2077DevWave/GPTube.git
    ```
 ### Step 2: install Requirements
 
