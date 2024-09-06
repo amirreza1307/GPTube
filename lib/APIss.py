@@ -67,12 +67,9 @@ def get_videos(title):
 
 #ai API (chatgpt)
 def chatgpt(prompt):
-      api_url = f"https://chatgpt.apinepdev.workers.dev/?question={prompt}"
-
-      response = requests.get(api_url)
-      data = response.json()
-      answer = data.get('answer')
-      return answer
+    api_url = f"https://llm.sswsuport.workers.dev/?query={prompt}"
+    response = requests.get(api_url)
+    return response.text
 
 #downlaod any file
 def download_file(url, save_path):

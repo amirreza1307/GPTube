@@ -40,10 +40,10 @@ def top10s(top10,genre,title):
     text = chatgpt(getyamll("text_prompt").format(title=title,top=top,genre=genre,time=str(time),language=read_config_file()["language"]))
     text = translateto("number " + imagepath +" " + top, get_language_code(read_config_file()["language"])) +",,.."+ text
     lines = text.strip().split('\n')
-    if "sure" in lines[0]:
-        lines.pop()
-    if "assist" in lines[-1]:
-        lines.pop()
+    # if "sure" in lines[0]:
+    #     lines.pop()
+    # if "assist" in lines[-1]:
+    #     lines.pop()
     text = '\n'.join(lines)
 
     print(text)
