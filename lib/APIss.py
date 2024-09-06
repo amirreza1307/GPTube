@@ -67,7 +67,7 @@ def get_videos(title):
 
 #ai API (chatgpt)
 def chatgpt(prompt):
-    api_url = f"https://still-lake-aaef.sswsuport.workers.dev/?query={prompt}"
+    api_url = f"https://llm.sswsuport.workers.dev/?query={prompt}"
     response = requests.get(api_url)
     return response.text
 
