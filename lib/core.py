@@ -44,8 +44,6 @@ def top10s(top10,genre,title):
         lines.pop()
     if "sure" in lines[0]:
         lines.pop()
-    if "assist" in lines[-1]:
-        lines.pop()
     text = '\n'.join(lines)
 
     print(text)
