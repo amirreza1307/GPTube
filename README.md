@@ -73,6 +73,34 @@ Before you begin, ensure that you have the following prerequisites installed on 
 
 for use your custom background music and outro pic in video put this download link on `download_list\background_music.txt` and `download_list\outro_pic.txt`
 
+# 📸 Application Screenshots
+
+## GUI Interface - Long Video Tab
+The long video tab allows you to create comprehensive top 10 style videos with various customization options:
+
+![Long Video Tab](screenshots/screenshots_gui_longvideo.png)
+
+Features:
+- Topic selection for your video
+- General topic category
+- Video duration configuration
+- Intro video option (with or without video clips)
+- Pexels API integration for video/image content
+- Language selection (supports 80+ languages)
+- Multi-speaker option for varied voice narration
+
+## GUI Interface - Short Video Tab
+The short video tab is designed for creating quick, engaging short-form content:
+
+![Short Video Tab](screenshots/screenshots_gui_shortvideo.png)
+
+Features:
+- Simple topic input
+- Duration in seconds
+- Language selection
+- Multi-speaker support
+- Pexels API integration
+
 # Required APIs
 
 - **Openai**: There is no need now
